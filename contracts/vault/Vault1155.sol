@@ -66,6 +66,12 @@ contract Vault1155 is Initializable, VaultBase, ReentrancyGuardUpgradeable, Paus
     }
 
     /**
+     * @dev sets the fee receiver address by the admin
+     */
+    function setFeeReceiver(address newReceiver) external onlyVaultAdmin {
+        feeReceiver = newReceiver;
+    }
+    /**
      * @dev Calculates the total quote for a specified number of shares and a fee.
      * @param _numShares The number of shares.
      * @param fee The fee amount.
