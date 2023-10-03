@@ -13,7 +13,7 @@ The Licensed Work is © 2023 Souq G-Commerce, Inc.
 
 Additional Use Grant: None
 
-Change Date: June 26, 2027
+Change Date: September 28, 2027
 
 Change License: MIT
 

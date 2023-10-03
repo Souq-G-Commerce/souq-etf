@@ -6,13 +6,13 @@
  |____/   \___/   \___/   \__\_\ (_) |_|     |___| |_| \_| /_/   \_\ |_| \_|  \____| |_____|
 
 ```
-# Souq NFT AMM V1
+# Souq ETF
 
-This repository contains all the core smart contract source code for Souq ETF V1. The repository uses Hardhat as development environment for compilation, testing and deployment tasks.
+This repository contains all the core smart contract source code for Souq ETF. The repository uses Hardhat as development environment for compilation, testing and deployment tasks.
 
 # What is Souq?
 
-Souq.finance is building an ETF with Automated Market Maker (AMM).
+Souq has developed on-chain ETFs that are constructed of baskets of high quality tokens from revenue-generating protocols that meet a stringent set of inclusion criteria. Not only this, but most of these tokens can be staked to generate yield. This provides investors with sustainable yield, as well as thematic token appreciation exposure to whichever sector the ETF is focused on. We're excited to bring this battle tested asset class to the DeFi ecosystem, as we think it has the potential to fuel wealth creation for the new global retail investor class.
 
 ## License
 This repository is under Business Source License explained in the LICENSE.md file in this directory.
@@ -83,6 +83,8 @@ commit.
 Before being able to run any command, you need to create a `.env` file and set a BIP-39 compatible mnemonic as an
 environment variable. You can follow the example in `.env.example`. If you don't already have a mnemonic, you can use
 this [website](https://iancoleman.io/bip39/) to generate one.
+
+The hardhat.config.ts template should be added to the directory and compiler set to 0.8.10
 
 Then, proceed with installing dependencies:
 
